@@ -1,0 +1,35 @@
+*.log
+\cache
+\hw
+\ip_user_files
+\runs
+\sim
+srcs\utils_1
+# Vivado project-mode output folders
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/
+.Xil/
+
+# Logs and journals
+*.jou
+*.log
+*.str
+webtalk*
+vivado*.backup.*
+vivado_pid*.zip
+
+# Simulation output
+xsim.dir/
+*.wdb
+*.pb
+
+# Build output (remove these lines if you want to commit release bitstreams)
+*.bit
+*.bin
+*.dcp
+*.ltx
