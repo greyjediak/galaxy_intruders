@@ -16,6 +16,8 @@ Usually I do:
 git add . (you're supposed to do git add /path/filename.ext but I never do)
 git commit -m "your message here"
 git push origin <branchname>
+Changes now show in github and your branch can be merged with main
+Never push to main (unless you just really want to)
 
 ## Staying Updated with Code Changes.
 git status
