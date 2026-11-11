@@ -7,7 +7,15 @@
 6. In the terminal, run git clone https://github.com/greyjediak/galaxy_intruders
 7. Make sure you're in the root project (you may have to cd into FinalProject).
 
+## Branching
+1. In terminal, check git status before branching
+2. git checkout -b <branchname>   will automatically switch you to the new one and no <>! just replace with name
+
 ## Pushing Changes
+Usually I do:
+git add . (you're supposed to do git add /path/filename.ext but I never do)
+git commit -m "your message here"
+git push origin <branchname>
 
 ## Staying Updated with Code Changes.
 git status
