@@ -12,7 +12,6 @@ srcs\utils_1
 *.ip_user_files/
 *.runs/
 *.sim/
-*.srcs/
 .Xil/
 
 # Logs and journals
