@@ -12,7 +12,7 @@ module seg7_score (
     input logic display, //boolean for triggering display; **control signal "display = (state == DONE)"
     output logic [6:0] seg,
     output logic [3:0] an,
-    output logic display
+    output logic dp
 );
 
     logic [16:0] refresh_counter; 
